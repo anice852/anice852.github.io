@@ -15,7 +15,7 @@ $('button').on('click', function() {
     // }
 
     $.ajax({
-        url: "http://localhost:3000/convert",
+        url: "https://oyster-test-site-tree852.c9users.io/convert",
         data: {
             "kana": write
         },
