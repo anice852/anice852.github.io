@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bookstrap css-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="日文羅馬拼音.css">
+    <title>日文羅馬拼音</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-3">日文羅馬拼音</h1>
+        </div>
+    </div>
+    <!--
+    <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-danger active">
+            <input type="radio" name="options" id="option1" autocomplete="off" checked> 平轉片
+        </label>
+        <label class="btn btn-primary">
+            <input type="radio" name="options" id="option2" autocomplete="off"> 片轉平
+    </div>
+    -->
+
+    <div class="col">
+        <label class="col-form-label">請輸入平假名</label>
+        <input class="form-control" type="text" value="あ" id="input-text" />
+        <button type="button" class="btn btn-info">開始轉換</button>
+        <label class="col-form-label">　</label>
+        <div>
+            <input class="form-control" type="text" value="a" id="output-text" 　readonly="" />
+        </div>
+    </div>
+
+
+    <!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+    <script src="jquery-3.2.1.min.js" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>-->
+    <!--<script src="require.js"></script>-->
+    <script src="日文羅馬拼音.js"></script>
+</body>
+
+</html>
