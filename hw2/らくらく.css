@@ -1,0 +1,37 @@
+body {
+    /*margin: 0*/
+    margin: 1;
+    /*padding: 0*/
+    padding: 1;
+    overflow: hidden;
+    background: url(img/img_back.jpg);
+    font-family: "標楷體", "新細明體";
+    font-size: 25px
+    /*color;*/
+}
+
+.jumbotron {
+    background-color: transparent!important;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+    font-family: "標楷體", "新細明體";
+    font-size: 15px;
+    color: #000
+}
+
+.QAQ {
+    background-color: rgb(241, 128, 138);
+}
+
+#darpp {
+    font-size: 20px;
+}
+
+#cya {
+    font-size: 20px;
+}
