@@ -1,0 +1,134 @@
+.ex span {
+    opacity: 0;
+    transition: opacity 1300ms;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.ex span:nth-child(1) {
+    transition-delay: 200ms
+}
+
+.ex span:nth-child(2) {
+    transition-delay: 1200ms
+}
+
+.ex span:nth-child(3) {
+    transition-delay: 800ms
+}
+
+.ex span:nth-child(4) {
+    transition-delay: 300ms
+}
+
+.ex span:nth-child(5) {
+    transition-delay: 700ms
+}
+
+.ex span:nth-child(6) {
+    transition-delay: 600ms
+}
+
+.ex span:nth-child(7) {
+    transition-delay: 400ms
+}
+
+.ex span:nth-child(8) {
+    transition-delay: 900ms
+}
+
+.ex span:nth-child(9) {
+    transition-delay: 700ms
+}
+
+.ex span:nth-child(10) {
+    transition-delay: 50ms
+}
+
+.ex.exx span {
+    opacity: 1
+}
+
+.ppbtn {
+    margin-left: 10px;
+}
+
+#btout {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.row.marketing {
+    border-style: solid;
+    border-color: transparent;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*  timeami */
+
+.timeami {
+    position: absolute;
+    top: 200px;
+    right: 800px;
+}
+
+.game_time {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto
+}
+
+.pie {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.pie1 {
+    clip: rect(0px, 200px, 200px, 100px);
+    -o-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    background-color: #fff;
+}
+
+.pie2 {
+    clip: rect(0px, 100px, 200px, 0px);
+    -o-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    background-color: #fff;
+}
+
+.hold {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
+.bg {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    position: absolute;
+    /* 換顏色 */
+    background-color: #f9c3c3;
+}
+
+.time {
+    width: 160px;
+    height: 160px;
+    margin: 20px 0 0 20px;
+    /* 換顏色*/
+    background-color: rgb(195, 232, 249);
+    border-radius: 160px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    line-height: 160px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+}
