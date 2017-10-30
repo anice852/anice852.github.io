@@ -71,3 +71,8 @@ img.flower {
     font-size: 18px;
     font-family: "wt005", ""
 }
+
+a > img {
+    width: 20%;
+    height: auto;
+}
