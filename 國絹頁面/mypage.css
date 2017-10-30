@@ -43,7 +43,7 @@ img.background {
     right: 30%;
     width: 40%;
     font-size: 30px;
-    font-family: "王漢宗超明體",
+    font-family: "王漢宗超明體", "wt005";
 }
 
 .card-title2 {
@@ -62,5 +62,5 @@ img.flower {
 
 .card-title3 {
     font-size: 25px;
-    font-family: "標楷體", ""
+    font-family: "wt005", ""
 }
