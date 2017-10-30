@@ -45,7 +45,7 @@ img.background {
     right: 30%;
     width: 40%;
     font-size: 30px;
-    font-family: "wt005";
+    font-family: "標楷體", "DFKai-sb"
 }
 
 .card-title2 {
@@ -64,12 +64,12 @@ img.flower {
 
 .card-title3 {
     font-size: 25px;
-    font-family: "wcl-07"
+    font-family: :"Microsoft JhengHei","微軟正黑體";
 }
 
 #title {
     font-size: 18px;
-    font-family: "wcl-07"
+    font-family: "Microsoft JhengHei","微軟正黑體";
 }
 
 a > img {
