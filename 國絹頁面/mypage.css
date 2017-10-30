@@ -1,5 +1,7 @@
 body {
-    background: url(background5.jpg)
+    background-image: url(background5.jpg);
+    //background-repeat: no-repeat;
+    //background-size: 100% 100vh;
 }
 
 div.container {
@@ -62,5 +64,10 @@ img.flower {
 
 .card-title3 {
     font-size: 25px;
+    font-family: "wt005", ""
+}
+
+#title {
+    font-size: 18px;
     font-family: "wt005", ""
 }
