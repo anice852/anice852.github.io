@@ -1,5 +1,7 @@
 body {
-    background: url(background5.jpg)
+    background-image: url(background5.jpg);
+    //background-repeat: no-repeat;
+    //background-size: 100% 100vh;
 }
 
 div.container {
@@ -43,7 +45,7 @@ img.background {
     right: 30%;
     width: 40%;
     font-size: 30px;
-    font-family: "çŽ‹æ¼¢å®—è¶…æ˜Žé«”", "wt005";
+    font-family: "¼Ð·¢Åé", "DFKai-sb"
 }
 
 .card-title2 {
@@ -62,5 +64,15 @@ img.flower {
 
 .card-title3 {
     font-size: 25px;
-    font-family: "wt005", ""
+    font-family: :"Microsoft JhengHei","·L³n¥¿¶ÂÅé";
+}
+
+#title {
+    font-size: 18px;
+    font-family: "Microsoft JhengHei","·L³n¥¿¶ÂÅé";
+}
+
+a > img {
+    width: 20%;
+    height: auto;
 }
